@@ -1,5 +1,5 @@
 # Helpbot
-HelpBot: A Streamlit Chatbot
+HelpBot: Chatbot that can generate responses based on context created from uploaded documents and handle special case inputs
 # HelpBot: A Streamlit Chatbot
 
 HelpBot is a chatbot application built using Streamlit, LangChain, and LlamaIndex, designed to assist users with various queries. The chatbot can generate responses based on context created from uploaded documents and handle special case inputs.

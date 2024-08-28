@@ -34,8 +34,8 @@ Then, install the required packages:
 ## Usage
 Run the Streamlit app with the following command:
 
-      ```bash
-streamlit run mainbot.py
+      streamlit run mainbot.py
+   
 
 
 ## Functions

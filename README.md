@@ -29,10 +29,12 @@ Then, install the required packages:
 - Inside the .streamlit directory, create a secrets.toml file.
 - Store your OpenAI API key in the secrets.toml file in the following format:
   ```arduino
-  openai_api_key = "your-openai-api-key"
+  openai_api_key = "your-openai-api-key" 
 
 ## Usage
-Run the Streamlit app with the following command
+Run the Streamlit app with the following command:
+
+      ```bash
 streamlit run mainbot.py
 
 

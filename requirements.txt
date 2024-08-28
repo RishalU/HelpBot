@@ -1,8 +1,0 @@
-streamlit
-dataclasses
-typing-extensions
-langchain_openai
-llama_index
-langchain-community
-openai
-logging

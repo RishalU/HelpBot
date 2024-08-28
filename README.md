@@ -85,3 +85,11 @@ The application logs important events and errors into a log file named app4.log.
   - A log file named `app.log` will be created automatically in the project directory.
   - Once the log file reaches a specified size threshold, it will be compressed into a zip file.
   - The compressed log file will be stored in a folder named `archives`.
+
+- **Warning, Error, and Exception Handling:**
+  - The application has built-in mechanisms to handle various scenarios:
+    - **Warnings:** When user input is empty or invalid, a warning message will be logged, and the chatbot will prompt the user to provide valid input.
+    - **Error Handling:** Specific errors like `FileNotFoundError`, `ValueError`, and `RuntimeError` are captured and logged with detailed stack traces.
+    - **Exception Handling:** Any unexpected exceptions are also captured, logged, and handled gracefully to ensure the application continues to function.
+  - These logs are crucial for debugging and understanding the application's behavior, especially in edge cases.
+

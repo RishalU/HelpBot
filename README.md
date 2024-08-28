@@ -32,9 +32,9 @@ Then, install the required packages:
   openai_api_key = "your-openai-api-key"
 
 ## Usage
-Run the Streamlit app with the following command:
-    ```bash
-  streamlit run mainbot.py
+Run the Streamlit app with the following command
+streamlit run mainbot.py
+
 
 ## Functions
 **archive_log_file(log_file_path, archive_dir, max_size_kb)**
